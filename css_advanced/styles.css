@@ -1,0 +1,222 @@
+body {
+    font-family: Source Sans Pro, sans-serif;
+    color:#f0f0f0;
+    margin: 0;
+    padding: 0;
+    background: ;
+  
+  }
+  #love {
+    background: url('images/background.png') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  header nav img {
+    width: 250px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #lessons {
+    display: flex;
+    gap: 80px;
+    flex-direction: horizontal;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: max-content; /* Set a height for the container */
+    
+  }
+h2 {
+  font-weight: lighter;
+}
+  
+  #xul {
+    margin: 200px 0 0 0;
+    font-size: 120px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    
+  }
+  .pros {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+    margin: 100px;
+  }
+ 
+  .tutors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: auto; /* Set a height for the container */
+    margin: 200px 200px 200px 200px;
+
+  }
+  .but {
+    display: grid; /* Enables CSS Grid */
+    place-items: center; /* Centers both horizontally and vertically */
+    height: /* Full height to demonstrate vertical centering */
+  }
+  button {
+    padding: 10px 20px;
+    stroke: none;
+    margin: 40px;
+    color: white;
+    background-color: #C271FF;
+    border-radius: 22px;
+  }
+  .man {
+    background-color: #C271FF;
+    height: 40vh;
+   padding: 0 300px 0 200px;
+    
+    
+  }
+  .laugh {
+    margin: 0 0 0 300px;
+  }
+  .popular {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: auto; /* Set a height for the container */
+    border: 1px ;
+    margin: 0px 200px 0px 200px;
+    color: black;
+  }
+
+  
+  .captions {
+    width: 300px;
+  }
+  .people {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 200px; /* Set height of the container */
+    background-color: white; /* Optional background color */
+  }
+  .people>h2{
+    color: black;
+    font-weight: lighter;
+  }
+  #peoples>h2 {
+    margin: 0; /* Remove default margin */
+    color: white;
+    font-weight: lighter;
+    
+  }
+  #peoples {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 200px; /* Set height of the container */
+    
+  }
+  .word {
+    color: #C271FF;
+    font-weight: bold; !important
+  }
+  #smiles {
+margin-top: 20px;
+margin-bottom: 40px;
+  }
+  #smiles>P{
+    font-weight: 100;
+  }
+  #blues {
+    height: 80vh;
+    background-color: #071629;
+  }
+  #faq>h2 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .grid {
+    display: grid;
+    justify-content: left; /* Center horizontally */
+    align-items: left; /* Center vertically */
+    text-align: left;
+    margin: 0 200px 0 200px;
+    grid-template-columns: repeat(2, 1fr); /* Three equal columns */
+    gap: 40px; /* Space between the divs */
+    color: black;
+ 
+  }
+  .grip>p {
+    text-align: left;
+  }
+  
+  .box {
+    text-align: center;
+    
+    
+  }
+  .footer {
+  display: flex;
+  justify-content: space-between; /* Push items to left and right */
+  align-items: center;
+  padding: 20px;
+    background-color: #071629;
+    height: 20vh;
+  }
+  .left {
+    align-items: left; 
+   }
+   .right {
+    align-items: right; 
+  
+   }
+   .center {
+    align-items: center;
+   }
+  
+   
+  
+  
