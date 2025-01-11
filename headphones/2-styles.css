@@ -1,0 +1,201 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+body {
+  font-family: source-sans-pro, sans-serif;
+  line-height: 1.6;
+}
+
+.hero {
+  background: url(images/headphones_hero_1.jpg)no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.para {
+text-align: center;
+padding: 80px;
+margin: 0 150px 0 150px ;
+
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #f35c5c;
+}
+.hero-content {
+  margin: 340px 0 80px 0;
+  height: ;
+  color: ;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+ 
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+}
+.cta {
+  background: #f35c5c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+  
+  .what-we-do,
+  .our-results,
+  .contact-us {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .our-results{
+    background: url(images/headphones_hero_2.jpg)no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .image {
+    display: block;
+    margin: 0 auto;
+    width: 10em;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    
+  }
+  .stats {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+  
+  }
+  .lorem {
+    margin-top: 40px;
+    font-size: small;
+  }
+  .number {
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 20px;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .feature {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .feature .icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+    color: #f35c5c;
+  }
+  
+ 
+  
+  .stat {
+    background: #f35c5c;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact-us form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 60px 60px;
+    
+  }
+  
+  .contact-us input,
+  .contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+   .icon {
+    overlay: ;
+   }
+  
+  footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 480px) {
+    .navbar {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .hero-content h1 {
+      font-size: 1.8rem;
+    }
+  
+    .features {
+      grid-template-columns: 1fr;
+    }
+  
+    .stats {
+      flex-direction: column;
+    }
+  }
+  
